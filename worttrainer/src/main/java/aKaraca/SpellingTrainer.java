@@ -1,5 +1,13 @@
 package aKaraca;
 
+/**
+ * SpellingTrainer Class
+ * Has a List of paired words and imageURLs called Items, Select one of these Items manually or randomized.
+ * Can Return the selected Item.
+ * Can compare input with selected Item and adds to the players statistics.
+ * @author Ali Karaca
+ * @version 14-02-25
+ */
 public class SpellingTrainer {
     private String[][] wordList;
     private int selectedIndex;
@@ -8,8 +16,6 @@ public class SpellingTrainer {
     private int listLength;
     /**
      * Contructor for the Rechtschreibtrainer class
-     * @autor Ali Karaca
-     * @version 14-02-2025
      */
     public SpellingTrainer() {
         listLength = 10;
