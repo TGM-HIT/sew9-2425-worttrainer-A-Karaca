@@ -1,5 +1,7 @@
 package aKaraca;
 
+import javax.swing.*;
+
 public class Main {
 
 
@@ -24,19 +26,8 @@ public class Main {
         }
         System.out.println(spellingTrainer.getStats());
 
+        JOptionPane.showInputDialog("");
 
-        spellingTrainer.randomizeItem();
-        try {
-            System.out.println(spellingTrainer.getCurrentItem()[0]);
-        } catch (Exception e) {
-            throw new RuntimeException(e);
-        }
-        try {
-            spellingTrainer.compareItem(System.console().readLine());
-        } catch (Exception e) {
-            throw new RuntimeException(e);
-        }
-        System.out.println(spellingTrainer.getStats());
 
     }
 }
