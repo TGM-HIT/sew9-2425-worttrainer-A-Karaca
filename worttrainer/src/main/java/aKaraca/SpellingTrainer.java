@@ -106,5 +106,9 @@ public class SpellingTrainer {
         selectedIndex = (int) (Math.random() * wordList.length);
     }
 
-
+    public void resetScore(){
+        playerStats[0] = 0;
+        playerStats[1] = 0;
+        playerStats[2] = 0;
+    }
 }
